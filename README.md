@@ -1,7 +1,7 @@
 # House-Price-Prediction
 ### Predicting House Price (Kaggle Competition Project)
 
-<img src="https://github.com/manthanpatel98/House-Price-Prediction/blob/master/README-Resources/House-Image.jpg" width=600>
+<img src="https://github.com/Rajeev095/House_Price_Prediction-/blob/main/README-Resources/House-Image.jpg" width=600>
 
 ---
 
@@ -25,16 +25,16 @@
 
 * You can find out the description about these columns in data_description file.
 
-<img src="https://github.com/manthanpatel98/House-Price-Prediction/blob/master/README-Resources/Dataset.png" width=800>
+<img src="https://github.com/Rajeev095/House_Price_Prediction-/blob/main/README-Resources/Dataset.png" width=800>
 
 ---
 
 ## Feature Engineering:
-* To understand it in more detail go to **[House-Price-Prediction.ipynb](https://github.com/manthanpatel98/House-Price-Prediction/blob/master/House-Price-Prediction.ipynb)**
+* To understand it in more detail go to **[House-Price-Prediction.ipynb](https://github.com/Rajeev095/House_Price_Prediction-/blob/main/House-Price-Prediction.ipynb)**
 
 ### A. Handling Missing Values:
 * Here, there are several columns that has higher NULL values.
-<img src="https://github.com/manthanpatel98/House-Price-Prediction/blob/master/README-Resources/Missing.png" width=500>
+<img src="https://github.com/Rajeev095/House_Price_Prediction-/blob/main/README-Resources/Missing.png" width=500>
 
 * So, I have dropped those columns that have more than 10% NULL values.
 * In **Categorical Columns**, I have replaced NULL value with **"Missing"** word.
@@ -63,37 +63,37 @@
 ### 1. RandomForestRegressor:
 * **RandomForestRegressor** has been applied with **Hyperparameter-tuning**.
 * **Results for RandomForestRegressor:**
-<img src="https://github.com/manthanpatel98/House-Price-Prediction/blob/master/README-Resources/RFR1.png" width=500>
+<img src="https://github.com/Rajeev095/House_Price_Prediction-/blob/main/README-Resources/RFR1.png" width=500>
 
-<img src="https://github.com/manthanpatel98/House-Price-Prediction/blob/master/README-Resources/RFR2.png" width=500>
+<img src="https://github.com/Rajeev095/House_Price_Prediction-/blob/main/README-Resources/RFR2.png" width=500>
 
 
 ### 2. Linear Regression:
 * **Results for Linear Regression:**
-<img src="https://github.com/manthanpatel98/House-Price-Prediction/blob/master/README-Resources/Lin1.png" width=500>
+<img src="https://github.com/Rajeev095/House_Price_Prediction-/blob/main/README-Resources/Lin1.png" width=500>
 
-<img src="https://github.com/manthanpatel98/House-Price-Prediction/blob/master/README-Resources/Lin2.png" width=500>
+<img src="https://github.com/Rajeev095/House_Price_Prediction-/blob/main/README-Resources/Lin2.png" width=500>
 
 
 ### 3. SVR:
 * **Results for SVR:**
-<img src="https://github.com/manthanpatel98/House-Price-Prediction/blob/master/README-Resources/SVR1.png" width=500>
+<img src="https://github.com/Rajeev095/House_Price_Prediction-/blob/main/README-Resources/SVR1.png" width=500>
 
-<img src="https://github.com/manthanpatel98/House-Price-Prediction/blob/master/README-Resources/SVR2.png" width=500>
+<img src="https://github.com/Rajeev095/House_Price_Prediction-/blob/main/README-Resources/SVR2.png" width=500>
 
 
 ### 4. GradientBoostingRegressor:
 * **Results for GradientBoostingRegressor:**
-<img src="https://github.com/manthanpatel98/House-Price-Prediction/blob/master/README-Resources/GBR1.png" width=500>
+<img src="https://github.com/Rajeev095/House_Price_Prediction-/blob/main/README-Resources/GBR1.png" width=500>
 
-<img src="https://github.com/manthanpatel98/House-Price-Prediction/blob/master/README-Resources/GBR2.png" width=500>
+<img src="https://github.com/Rajeev095/House_Price_Prediction-/blob/main/README-Resources/GBR2.png" width=500>
 
 
 ### 4. ANN:
 * **Results for ANN:**
-<img src="https://github.com/manthanpatel98/House-Price-Prediction/blob/master/README-Resources/ANN1.png" width=500>
+<img src="https://github.com/Rajeev095/House_Price_Prediction-/blob/main/README-Resources/ANN1.png" width=500>
 
-<img src="https://github.com/manthanpatel98/House-Price-Prediction/blob/master/README-Resources/ANN2.png" width=500>
+<img src="https://github.comRajeev095/House_Price_Prediction-/blob/main/README-Resources/ANN2.png" width=500>
 
 ---
 
